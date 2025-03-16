@@ -23,7 +23,7 @@ fetch('https://jsonplaceholder.typicode.com/users',{
         let li = document.createElement('li')
         ul.appendChild(li)
 
-        li.textContent = element.name
+        li.textContent = element.company.name
     });
 })
 
